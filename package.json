@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "deploy": "next build && npx gh-pages -d docs"
+    "deploy": "next build"
   },
   "dependencies": {
     "framer-motion": "^9.0.2",
