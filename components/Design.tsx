@@ -1,8 +1,7 @@
 import { useCallback } from "react";
-import type { Container, Engine } from "tsparticles-engine";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import BannerImg from "../public/assets/bg.jpg";
+import type { Container, Engine } from "tsparticles-engine";
 
 const Design = () => {
   const particlesInit = useCallback(async (engine: Engine) => {
