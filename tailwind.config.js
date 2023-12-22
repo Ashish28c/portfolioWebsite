@@ -11,8 +11,8 @@ module.exports = {
         bodyFont: 'Nunito Sans',
       },
       backgroundImage: {
-        "hero-image": "url('/assets/bg.jpg')",
-        "contact-image": "url('/assets/contact.jpg')",
+        "hero-image": "url('/portfolioWebsie/assets/bg.jpg')",
+        "contact-image": "url('/portfolioWebsie/assets/contact.jpg')",
       },
       colors: {
         designColor: '#00FFFF',
