@@ -61,7 +61,7 @@ const Banner = () => {
       <span className="block">Ashish</span>
       <span className="block">Chauhan</span>
     </h1>
-    <div className="flex items-center gap-2 md:gap-6 text-base md:text-xl font-bold bg-- px-6 py-3 ml-[300px]">
+    <div className="flex items-center gap-2 md:gap-6 text-base md:text-xl font-bold bg-- px-6 py-3 ml-[350px]">
       <h2 className="tracking-[4px] mt-[200px]">Backed Developer</h2>
       <HiMinus className="text-2xl rotate-90 mt-[200px]" />
       <h2 className="tracking-[4px] mt-[200px]">Designer</h2>
