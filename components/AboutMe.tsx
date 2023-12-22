@@ -33,7 +33,7 @@ const AboutMe = () => {
             boxShadow: '4px 4px 10px rgba(0, 255, 255, 0.5)' // Shadow color in rgba format with blur
           }}>
             <Image
-              src="/s3.jpg"  // Assuming s3.jpg is in the public folder
+              src="/portfolioWebsie/s3.jpg"  // Assuming s3.jpg is in the public folder
               alt="Your Alt Text"
               width={370}  // Adjust the desired width
               height={570} // Adjust the desired height
