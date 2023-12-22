@@ -2,7 +2,12 @@
 import { FaTimes } from 'react-icons/fa';
 import { Link } from 'react-scroll';
 
-const MobileNav = ({ isOpen, onClose }) => {
+interface MobileNavProps {
+  isOpen: boolean;
+  onClose: () => void;
+}
+
+const MobileNav: React.FC<MobileNavProps> = ({ isOpen, onClose }) => {
   return (
     <div className={`fixed top-0 left-0 w-full h-full bg-black text-white ${isOpen ? 'block' : 'hidden'}`}>
       <div className="p-4">
