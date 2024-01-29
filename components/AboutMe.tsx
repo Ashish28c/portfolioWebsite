@@ -33,7 +33,7 @@ const AboutMe = () => {
             boxShadow: '4px 4px 10px rgba(0, 255, 255, 0.5)' // Shadow color in rgba format with blur
           }}>
             <Image
-             src="/portfolioWebsie/s3.jpg"
+             src="/portfolioWebsite/s3.jpg"
               alt="Your Alt Text"
               width={370}
               height={570}
