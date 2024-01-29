@@ -37,9 +37,8 @@ const AboutMe = () => {
               alt="Your Alt Text"
               width={370}
               height={570}
-              layout="responsive" // Use responsive layout
-              objectFit="cover" // Maintain aspect ratio and cover the container
-            />
+              layout="responsive" 
+              objectFit="cover" 
           </div>
         </div>
       </div>
